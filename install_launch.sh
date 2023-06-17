@@ -8,4 +8,4 @@ export DATABASE_PASSWORD=${SUB_DATABASE_PASSWORD}
 export DATABASE_DB_NAME=employees
 cat database_create_tables.sql | \
 mysql -h $$DATABASE_HOST -u $$DATABASE_USER -p$$DATABASE_PASSWORD
-FLASK_APP=application.py /usr/local/bin/flask run --host=0.0.0.0 --port=80
+FLASK_APP=application.py /usr/local/bin/flask run --host=0.0.0.0 --port=5000
