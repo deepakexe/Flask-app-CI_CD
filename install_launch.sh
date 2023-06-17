@@ -1,3 +1,4 @@
+#bash script to install dependencies and run the application
 #!/bin/bash -ex
 yum -y install python3 mysql
 pip3 install -r requirements.txt
